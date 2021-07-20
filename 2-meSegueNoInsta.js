@@ -1,10 +1,10 @@
 function solucao(largura, altura) {
-    if(altura > largura){
+    if (altura > largura) {
         console.log("RETRATO")
-    }else if(largura> altura){
+    } else if (largura > altura) {
         console.log("PAISAGEM")
-    }else{
+    } else {
         console.log("QUADRADA")
     }
-    
-  }
+
+}

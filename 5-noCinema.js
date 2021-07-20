@@ -1,11 +1,11 @@
 function solucao(obj) {
-	if(obj.temIngresso == true && (obj.idade >= obj.censura || obj.estaComPais == true)){
-        if(obj.idade < 18 || obj.temCarteirinha == true){
+    if (obj.temIngresso == true && (obj.idade >= obj.censura || obj.estaComPais == true)) {
+        if (obj.idade < 18 || obj.temCarteirinha == true) {
             console.log("MEIA")
-        }else{
+        } else {
             console.log("INTEIRA")
         }
-    } else{
+    } else {
         console.log("ACESSO NEGADO")
     }
 }
